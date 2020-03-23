@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(236, 253, 255);
+}
+.heading {
+  color: darkturquoise;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  color: grey;
+  width: 25%;
+  border-width: 5px;
+}
