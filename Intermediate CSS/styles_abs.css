@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.first,
+.second,
+.third {
+  width: 100px;
+  height: 100px;
+}
+.first {
+  background-color: red;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+.second {
+  background-color: blue;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+.third {
+  background-color: yellow;
+  position: absolute;
+}
