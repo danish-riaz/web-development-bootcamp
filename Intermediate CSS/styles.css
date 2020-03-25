@@ -1,0 +1,22 @@
+.first,
+.second,
+.third {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+.first {
+  background-color: red;
+  position: relative;
+  left: 200px;
+}
+.second {
+  background-color: blue;
+  position: relative;
+  right: 100px;
+}
+.third {
+  background-color: yellow;
+  position: relative;
+  right: 100px;
+}
