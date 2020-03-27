@@ -5,6 +5,7 @@ h1 {
   font-size: 300%;
   line-height: 1.5;
   font-weight: bold;
+  margin-top: 10%;
 }
 /* CLASSES */
 .navbar {
@@ -31,11 +32,20 @@ h1 {
   margin-left: 5%;
 }
 .title-img {
+  width: 60%;
   transform: rotate(30deg);
+  display: block;
+  margin: 0 auto;
 }
-@media (max-width: 900px) {
+@media (max-width: 992px) {
   .title-img {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
     transform: rotate(0deg);
-    margin-top: 15%;
+  }
+  h1,
+  .btn-container {
+    text-align: center;
   }
 }
