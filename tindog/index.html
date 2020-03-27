@@ -21,13 +21,18 @@
       href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap"
       rel="stylesheet"
     />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/a75d728b63.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <!-- NavBar -->
     <div class="container-fluid bg-title">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#">tindog</a>
         <button
           class="navbar-toggler"
@@ -65,11 +70,15 @@
       <div class="row title-left">
         <div class="col-md-6">
           <h1>Meet new and interesting dogs nearby.</h1>
-          <button class="btn btn-dark apple-download-btn">Download</button>
-          <button class="btn btn-light android-download-btn">Download</button>
+          <button class="btn btn-dark btn-lg apple-download-btn">
+            <i class="fab fa-apple"></i> Download
+          </button>
+          <button class="btn btn-light btn-lg android-download-btn">
+            <i class="fab fa-google-play"></i> Download
+          </button>
         </div>
         <div class="col-md-6">
-          <img src="images/iphone6.png" alt="" />
+          <img class="title-img" src="images/iphone6.png" alt="" />
         </div>
       </div>
     </div>

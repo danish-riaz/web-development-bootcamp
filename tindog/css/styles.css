@@ -1,21 +1,41 @@
 /* Tags */
 h1 {
   color: #fff;
-  font-family: "Montserrat-Black";
+  font-family: "Montserrat-Black", sans-serif;
   font-size: 300%;
   line-height: 1.5;
+  font-weight: bold;
 }
 /* CLASSES */
 .navbar {
+  margin: 2% 0 3% 0;
   padding: 0;
 }
-.nav-link {
-  color: #fff;
+
+.navbar-brand {
+  font-size: 2rem;
 }
 .bg-title {
   background-color: #ff4c68;
-  padding: 3% 5%;
+  padding: 3% 10%;
 }
 .title-left {
-  padding: 3% 0;
+  padding: 5% 0;
+}
+.apple-download-btn,
+.android-download-btn {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.android-download-btn {
+  margin-left: 5%;
+}
+.title-img {
+  transform: rotate(30deg);
+}
+@media (max-width: 900px) {
+  .title-img {
+    transform: rotate(0deg);
+    margin-top: 15%;
+  }
 }
