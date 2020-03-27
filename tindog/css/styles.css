@@ -1,11 +1,20 @@
 /* Tags */
-h1 {
+h1,
+h2 {
   color: #fff;
   font-family: "Montserrat-Black", sans-serif;
   font-size: 300%;
   line-height: 1.5;
   font-weight: bold;
   margin-top: 10%;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 3%;
+}
+p {
+  color: #8f8f8f;
 }
 /* CLASSES */
 .navbar {
@@ -48,4 +57,52 @@ h1 {
   .btn-container {
     text-align: center;
   }
+}
+.col-lg-4 {
+  text-align: center;
+}
+.fa-4x {
+  color: #ef8172;
+}
+.fas:hover {
+  color: #ff4c68;
+}
+.testimonial {
+  background-color: #ef8172;
+}
+.carousel-item {
+  padding: 5% 15%;
+  text-align: center;
+}
+.tes-img {
+  width: 8%;
+  border-radius: 100%;
+}
+em {
+  color: #fff;
+  margin-left: 5px;
+}
+.press img {
+  width: 15%;
+  display: inline-block;
+}
+.press {
+  text-align: center;
+  padding-bottom: 5%;
+}
+.true-love {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 7%;
+  margin-top: 5%;
+}
+.foot {
+  text-align: center;
+}
+.social-icon {
+  margin: 5% 10px 10px 5px;
+}
+/* ID's */
+#middle-section {
+  padding: 7% 15% !important;
 }
