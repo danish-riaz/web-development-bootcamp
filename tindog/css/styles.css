@@ -1,0 +1,21 @@
+/* Tags */
+h1 {
+  color: #fff;
+  font-family: "Montserrat-Black";
+  font-size: 300%;
+  line-height: 1.5;
+}
+/* CLASSES */
+.navbar {
+  padding: 0;
+}
+.nav-link {
+  color: #fff;
+}
+.bg-title {
+  background-color: #ff4c68;
+  padding: 3% 5%;
+}
+.title-left {
+  padding: 3% 0;
+}
