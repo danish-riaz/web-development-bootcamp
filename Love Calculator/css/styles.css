@@ -1,0 +1,42 @@
+/* Tags */
+h1 {
+  color: #fff;
+  font-family: "Loved by the King", cursive;
+  font-size: 3rem;
+  padding: 5%;
+  text-align: center;
+}
+label {
+  font-family: "Lovers Quarrel", cursive;
+  font-size: 2rem;
+  color: #5c6373;
+  margin-top: 10px;
+}
+/* Classes */
+.inner-container {
+  background-color: #ff4c68;
+  border-radius: 4px;
+  margin: 7% auto;
+  width: 40%;
+}
+.cal-section {
+  padding: 8%;
+}
+.btn-color {
+  color: #fff;
+  background-color: #d62e25;
+  margin: 7% auto;
+  display: block;
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .inner-container {
+    background-color: #ff4c68;
+    width: 100%;
+    margin: 0;
+  }
+  .container-fluid {
+    margin: 0;
+    padding: 0;
+  }
+}
