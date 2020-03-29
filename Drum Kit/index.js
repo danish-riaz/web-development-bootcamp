@@ -5,6 +5,11 @@ for (i = 0; i < drumLen; i++) {
     var classCheck = this.innerHTML;
     playSound(classCheck);
   });
+
+  //   Key Press
+  document.addEventListener("keypress", function(event) {
+    playSound(event.key);
+  });
 }
 function playSound(keyPressed) {
   switch (keyPressed) {
