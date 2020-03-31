@@ -8,7 +8,16 @@
 </head>
 
 <body>
-  <h1>Testing</h1>
+  <h1>Todo</h1>
+  <ul>
+    <% for(var i =0; i<newlyAddedItem.length; i++){ %>
+    <li><%= newlyAddedItem[i] %></li>
+    <% } %>
+  </ul>
+  <form action="/" method="POST">
+    <input type="text" name="newItem" required>
+    <button type="submit">Add</button>
+  </form>
 </body>
 
 </html>
