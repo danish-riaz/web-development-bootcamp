@@ -1,0 +1,18 @@
+html {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+  text-align: center;
+}
+
+input:checked+span {
+  text-decoration: line-through;
+  text-decoration-color: black;
+  display: inline;
+}
+
+input[type="checkbox"] {
+  margin: 5px;
+  display: inline;
+}

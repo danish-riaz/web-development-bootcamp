@@ -5,17 +5,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Todo</title>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
   <h1>Todo</h1>
-  <ul>
-    <% for(var i =0; i<newlyAddedItem.length; i++){ %>
-    <li><%= newlyAddedItem[i] %></li>
-    <% } %>
-  </ul>
+  <% for(var i =0; i<newlyAddedItem.length; i++){ %>
+  <p>
+    <input type="checkbox">
+    <span><%= newlyAddedItem[i] %></span>
+  </p>
+  <% } %>
   <form action="/" method="POST">
-    <input type="text" name="newItem" required>
+    <input type="text" name="newItem" required autocomplete="off"><br><br>
     <button type="submit">Add</button>
   </form>
 </body>
